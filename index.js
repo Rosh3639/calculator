@@ -29,3 +29,11 @@ function subtraction() {
     let output1 = document.getElementById("output");
     output1.innerHTML = "<b>Subtraction is:  " + sub + "</b>";
 }
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

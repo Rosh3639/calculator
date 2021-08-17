@@ -5,14 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Calculator</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 id="heading"><em>Simple Calculator </em> </h1>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <span id="onc" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+
+    <h1 id="heading" style="text-align: center;"><em>Simple Calculator </em> </h1>
     <div class="container">
         <label for=""><b>Enter a number</b> </label>
         <div id="number1">
@@ -30,7 +39,18 @@
             Answer
         </div>
     </div><br>
-    <p class="mt-5 mb-3 text-muted"><b>© Roshan Rasal <br> 2021–2022</b></p>
+    <p style="text-align: center;" class="mt-5 mb-3 text-muted"><b>© Roshan Rasal <br> 2021–2022</b></p>
+    <p style="text-align: center;"><b><em>Follow me on social media</em></b></p>
+    <!-- Social Media  -->
+    <div style="text-align: center;">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="https://bit.ly/37QL40A" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+    </div>
+
+    <!-- Social Media  -->
+
     <script src="index.js"></script>
 </body>
 
