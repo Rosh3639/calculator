@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="heading"><em>Simple Calculator </em> </h1>
+
+    <div class="container">
+        <label for=""><b>Enter a number</b> </label>
+        <div id="number1">
+            <input type="number" name="number" id="num1" required tabindex="number" placeholder="Enter number">
+        </div>
+        <label for=""><b>Enter a number</b></label>
+        <div id="number2">
+            <input type="number" name="number" id="num2" required tabindex="number" placeholder="Enter number">
+        </div><br>
+        <button onclick="addSum()" class="button"><b>Addition</b> </button><br><br>
+        <button onclick="subtraction()" class="button"><b>Subtraction</b> </button><br><br>
+        <button onclick="multiply()" class="button"><b>Multiplication</b> </button><br><br>
+        <button onclick="division()" class="button"><b>Division</b></button><br><br>
+        <div class="" id="output">
+            Answer
+        </div>
+    </div><br>
+    <p class="mt-5 mb-3 text-muted"><b>© Roshan Rasal <br> 2021–2022</b></p>
+    <script src="index.js"></script>
+</body>
+
+</html>
